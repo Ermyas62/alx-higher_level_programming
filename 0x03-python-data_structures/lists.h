@@ -24,6 +24,7 @@ new_in_list(my_list, idx, element);
 print_matrix_integer(matrix=[[]]);
 add_tuple(tuple_a=(), tuple_b=());
 multiple_returns(sentence);
+max_integer(my_list=[]);
 
 int is_palindrome(listint_t **head);
 
