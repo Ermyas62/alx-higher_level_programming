@@ -27,6 +27,7 @@ multiple_returns(sentence);
 max_integer(my_list=[]);
 divisible_by_2(my_list=[]);
 delete_at(my_list=[], idx=0);
+void print_python_list_info(PyObject *p);
 
 int is_palindrome(listint_t **head);
 
