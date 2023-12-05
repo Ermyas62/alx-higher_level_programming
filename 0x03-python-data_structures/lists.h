@@ -22,6 +22,7 @@ replace_in_list(my_list, idx, element);
 print_reversed_list_integer(my_list=[]);
 new_in_list(my_list, idx, element);
 print_matrix_integer(matrix=[[]]);
+add_tuple(tuple_a=(), tuple_b=());
 
 int is_palindrome(listint_t **head);
 
