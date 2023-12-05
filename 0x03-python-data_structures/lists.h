@@ -20,6 +20,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n);
 void free_listint(listint_t *head);
 replace_in_list(my_list, idx, element);
 print_reversed_list_integer(my_list=[]);
+new_in_list(my_list, idx, element);
 
 int is_palindrome(listint_t **head);
 
