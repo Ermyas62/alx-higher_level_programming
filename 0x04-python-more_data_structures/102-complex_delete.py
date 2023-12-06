@@ -1,4 +1,4 @@
-#usr/bin/python3
+#!/usr/bin/python3
 def complex_delete(a_dictionary, value):
     keylist = []
     if value in a_dictionary.values():
