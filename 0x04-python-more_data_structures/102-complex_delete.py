@@ -10,5 +10,3 @@ def complex_delete(a_dictionary, value):
             if k1 in a_dictionary:
                 del a_dictionary[k1]
     return a_dictionary
-
-
