@@ -27,7 +27,7 @@ class Node:
         self.__data = value
 
     @property
-    def next_node(self, value):
+    def next_node(self):
         """set the next_node of the node."""
         return (self.__next_node)
 
@@ -39,7 +39,6 @@ class Node:
 
 class SinglyLinkedList:
     """Represents a singly_linked list."""
-
 
     def __init__(self):
         """Initialize a new singlylinkedlist."""
