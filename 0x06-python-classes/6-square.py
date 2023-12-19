@@ -12,7 +12,7 @@ class Square:
             size (int): the size of the new square.
             position (int, int): the position of the new square.
         """
-        self.__size = size
+        self.size = size
         self.position = position
 
     @property
