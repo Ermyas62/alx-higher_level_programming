@@ -27,7 +27,7 @@ class Rectangle:
         Args:
             value: value of the width must be a postive number
         """
-        if not isinstance(value, int):
+        if  isinstance(value, int) is False:
             raise TypeError("width must be an integer")
         if value < 0:
             raise ValueError("width must be >= 0")
@@ -44,7 +44,7 @@ class Rectangle:
         Args:
             value: value of the height must be a postive number
         """
-        if not isinstance(value, int):
+        if isinstance(value, int) is False:
             raise TypeError("height must be an integer")
         if value < 0:
             raise ValueError("height must be >= 0")
