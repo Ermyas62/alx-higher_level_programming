@@ -12,7 +12,7 @@ class Rectangle:
         decrements with every deletion
     """
 
-    number_of_instances = 0
+    number_of_instances = 2
 
     def __init__(self, width=0, height=0):
         """ Intialize a rectangle instance.
