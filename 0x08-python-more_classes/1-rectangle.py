@@ -4,9 +4,9 @@ Module 1-rectangle
 Defines a Rectangle class.
 """
 
+
 class Rectangle:
     """Rectangle class defined by width and height."""
-
 
     def __init__(self, width=0, height=0):
         """ Intialize a rectangle instance.
@@ -28,7 +28,7 @@ class Rectangle:
         Args:
             value: value of the width must be a postive number
         """
-        if  isinstance(value,int) is False:
+        if isinstance(value, int) is False:
             raise TypeError("width must be an integer")
         if value < 0:
             raise ValueError("width must be >= 0")
