@@ -4,6 +4,7 @@ Module 4-rectangle
 Defines a rectangle class.
 """
 
+
 class Rectangle:
     """Rectangle class defined by width and height."""
 
@@ -27,7 +28,7 @@ class Rectangle:
                 rec_str += '#'
             rec_str += '\n'
         return rec_str[:-1]
-    
+
     def __repr__(self):
         """Return a string representation of a rectangle instance
         that is able to recreate a new instance by using eval()
@@ -85,5 +86,3 @@ class Rectangle:
         if self.__height == 0 or self.__width == 0:
             return 0
         return 2 * (self.__width + self.__height)
-
-
