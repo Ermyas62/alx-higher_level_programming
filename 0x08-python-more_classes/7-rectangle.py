@@ -4,6 +4,7 @@ Module 7-rectangle
 Defines a Rectangle class.
 """
 
+
 class Rectangle:
     """Rectangle class defined by width and height.
     Attributes:
@@ -42,7 +43,6 @@ class Rectangle:
            able to create a new instance by using eval()
         """
         return "Rectangle {}, {})".format(self.__width, self.__height)
-
 
     def __del__(self):
         """Deletes a rectangle instance."""
