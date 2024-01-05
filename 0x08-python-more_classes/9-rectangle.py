@@ -4,6 +4,7 @@ Module 9-rectangle
 Defines a Rectangle class.
 """
 
+
 class Rectangle:
     """Rectangle class defined by width and height.
     Attributes:
@@ -42,7 +43,6 @@ class Rectangle:
            able to create a new instance by using eval()
         """
         return "Rectangle {}, {})".format(self.__width, self.__height)
-
 
     def __del__(self):
         """Deletes a rectangle instance."""
@@ -100,6 +100,7 @@ class Rectangle:
         if self.__height == 0 or self.__width == 0:
             return 0
         return 2 * (self.__width + self.__height)
+
     @staticmethod
     def bigger_or_equal(rect_1, rect_2):
         """ finds the biggest rectangle based on the area
@@ -119,6 +120,7 @@ class Rectangle:
         if rect_1.area() < rect_2.area():
             return rect_2
         return rect_2
+
     @classmethod
     def square(cls, size=0):
         """Returns a new Rectangle instance with width == height == size"""
