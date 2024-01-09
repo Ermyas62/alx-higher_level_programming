@@ -27,7 +27,7 @@ class Student:
             attr (list): attribute names that are to be retrived"""
 
         if attr is not None:
-            res = {k: self.__dict__[k] for k in self.__dict__.keys() &attr}
+            res = {k: self.__dict__[k] for k in self.__dict__.keys() & attr}
             return res
         else:
             return self.__dict__
