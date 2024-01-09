@@ -15,7 +15,7 @@ class Student:
             __init__ - intializes the studen instance.
             to_json - retrives dictionary repr of student instance.
     """
-    def __int__(self, first_name, last_name, age):
+    def __init__(self, first_name, last_name, age):
         """intializes the students"""
         self.first_name = first_name
         self.last_name = last_name
