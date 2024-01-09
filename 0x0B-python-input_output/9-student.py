@@ -5,8 +5,9 @@ The class "student" container
 
 
 class Student:
-    """representation of a stuedent"""
-    def __int__(self, first_name, last_name, age):
+    """student class body"""
+    
+    def __init__(self, first_name, last_name, age):
         """intializes the students"""
         self.first_name = first_name
         self.last_name = last_name
