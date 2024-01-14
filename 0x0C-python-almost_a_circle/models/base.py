@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 """
-this module implements 'base' calss of all other classes.
+This module implements 'base' calss of all other classes.
 """
 import json
 import turtle
 
 
-calss Base:
+class Base:
     """
     implemetation
     """
@@ -56,7 +56,7 @@ calss Base:
         """create a new object from dictionary"""
         if cls.__name__ == "Rectangle":
             new = cls(10, 10)
-        else cls.__name__ == "Square":
+        elif cls.__name__ == "Square":
             new = cls(10, 10)
         new.update(**dictionary)
         return new
