@@ -21,7 +21,7 @@ class Rectangle(Base):
         """string representation"""
         return "[Rectangle] ({}) {}/{} - {}/{}"\
                 .format(self.id, self.x, self.y, self.width, self.height)
-    def check_type_value(self, name: str, value: object, greate_equal=False):
+    def check_type_value(self, name: str, value: object, greater_equal=False):
         """type and value validation"""
         if not isinstance(value, int):
             raise TypeError("{} must be an integer".format(name))
