@@ -72,7 +72,7 @@ class Base:
             for el in data:
                 object_created.append(cls.create(**el))
 
-            return object_created
+        return object_created
 
     @classmethod
     def save_to_file_csv(cls, list_objs):
@@ -85,8 +85,10 @@ class Base:
             content += '\n'
             for lst in list_objs:
                 content += ','.join(
-                        map(str, lst.to_dictionary().values())
-                        )
+                    map(str, lst.to_dictionary().values())
+                )
+                content += '\n'
+
         with open(filename, mode="w", encoding="utf-8") as f:
             return f.write(content)
 
