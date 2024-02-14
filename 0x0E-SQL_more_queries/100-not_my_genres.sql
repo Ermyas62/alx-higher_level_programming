@@ -18,5 +18,3 @@ FROM `tv_genres` AS g
 			ON s.`show_id` = t.`id`
 			WHERE t.`title` = "DEXTER")
 ORDER BY g.`name`;
-
-
