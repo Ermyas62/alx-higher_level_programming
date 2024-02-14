@@ -1,7 +1,5 @@
 -- Lists all cities in the database
 -- Records are sorted in order of ascending cities.id
-SELECT c.`id`, c.`name`, s.`name`
-FROM `cities` as c
-	INNER JOIN `states` AS S
-	ON c.`state_id` = s.`id`
-ORDER BY c.`id`;
+SELECT cities.id, cities.name, states.name FROM cities
+JOIN states ON cities.state_id = states.id
+ORDER BY cities.id;
